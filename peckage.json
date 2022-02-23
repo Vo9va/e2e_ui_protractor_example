@@ -1,0 +1,22 @@
+{
+  "name": "qa",
+  "scripts": {
+    "e2e-dev": "protractor protractor.conf.js",
+  },
+  "private": true,
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "cross-env": "^6.0.3",
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor-fail-fast": "^3.1.0",
+    "superagent": "^5.1.0",
+    "superagent-proxy": "^3.0.0",
+    "testrail-api": "^1.3.5"
+  },
+  "devDependencies": {
+    "@types/jasminewd2": "~2.0.3",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "protractor": "^7.0.0"
+  }
+}
